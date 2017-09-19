@@ -1,0 +1,379 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+section {
+  padding: 0;
+}
+
+h4 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+header {
+  background-color: #0079C4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+
+  .logo {
+    display: flex;
+    align-items: center;
+
+    img {
+      width: 116px;
+      height: 33px;
+      margin-right: 10px;
+    }
+
+    .line {
+      background-color: #979797;
+      width: 2px;
+      height: 50px;
+    }
+  }
+
+  .user {
+
+    img {
+
+    }
+  }
+}
+
+.content {
+
+  .one-step-away {
+    background-color: #1B1B1B;
+
+    p {
+      color: #ffffff;
+      text-align: center;
+      font-family: 'Poppins', sans-serif;
+      font-size: 72px;
+      padding: 165px 110px;
+      letter-spacing: -5px;
+      line-height: 77px;
+    }
+  }
+
+  .last-step {
+    border-right: 1px solid #EBF0F5;
+    border-bottom: 1px solid #EBF0F5;
+    border-radius: 0 0 5px 0;
+    margin: 50px 50px 50px 30px;
+
+    .step-list {
+
+      ul {
+        display: flex;
+        justify-content: space-around;
+        list-style-type: none;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        color: #7DC855;
+        margin: 0;
+        padding: 0;
+        border-bottom: 1px solid #EBF0F5;
+
+        li {
+          padding: 0 0 20px 0;
+          text-decoration: line-through;
+
+          i {
+            font-size: 17px;
+          }
+
+          .activate {
+            color: #358ED7;
+            background-color: black;
+          }
+        }
+      }
+    }
+
+    .step-choose {
+
+      .step-choose-title {
+
+        h2 {
+          color: #5E6977;
+          font-family: 'Roboto', sans-serif;
+          font-size: 18px;
+          font-weight: 600;
+          margin: 33px 0 0 80px;
+        }
+      }
+
+      .step-select-choose {
+        margin: 30px 0 0 75px;
+
+        .select-choose {
+
+          label {
+            margin: 25px 0 0 0;
+            cursor: pointer;
+
+            &:focus {
+              background-color: #979797;
+            }
+            .precondition {
+              line-height: 24px;
+              margin: 20px 0;
+
+              h4 {
+                color: #5E6977;
+                font-family: 'Roboto', sans-serif;
+                font-size: 16px;
+                font-weight: 600;
+
+                .asterisk {
+                  color: #ED576D;
+                }
+              }
+
+              p {
+                color: #86939E;
+                font-family: 'Roboto', sans-serif;
+                font-size: 16px;
+                //font-weight: 000;
+              }
+            }
+          }
+        }
+
+        .line-hr {
+          width: 90%;
+          height: 1px;
+          background-color: #EBF0F5;
+          margin: 20px 0 18px 0;
+        }
+
+        .step-credit-card {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+
+          .step-credit-title {
+            color: #86939E;
+            font-size: 14px;
+          }
+
+          .step-credit-logo {
+            display: flex;
+            align-items: center;
+            margin-right: 10%;
+
+            img {
+              width: auto;
+            }
+          }
+        }
+
+        .type-credit-card {
+          position: relative;
+
+          input {
+            width: 90%;
+            height: 42px;
+            border: 2px solid #7DC855;
+            border-radius: 6px;
+            outline: none;
+            padding-left: 10px;
+          }
+
+          .credit-icon {
+            position: absolute;
+            top: 13px;
+            right: 66px;
+
+            i {
+              color: #7DC855;
+            }
+          }
+
+          .credit-info {
+            margin-right: 10%;
+            text-align: center;
+
+            span {
+              color: #86939E;
+              font-size: 11px;
+            }
+          }
+        }
+
+        .step-card-data {
+          margin: 25px 0;
+
+          .step-card-info {
+            display: flex;
+            flex-direction: column;
+
+            .card-info-title {
+              span {
+                color: #86939E;
+                display: block;
+                font-size: 14px;
+                margin-bottom: 7px;
+              }
+            }
+
+            .credit-card-date {
+              display: flex;
+              margin-right: 5%;
+
+              .credit-card-month {
+
+                select {
+                  color: #5E6977;
+                  background-color: #F0F4F7;
+                  background: url(../../img/arrow-d.png) 80% / 15% no-repeat #eee;
+                  background-size: 8px 4px;
+                  border: 0;
+                  border-radius: 6px;
+                  width: 106px;
+                  height: 42px;
+                  font-family: 'Roboto', sans-serif;
+                  font-size: 14px;
+                  outline: none;
+                  padding: 10px 20px;
+                  margin-right: 15px;
+                  -webkit-appearance: none;
+                  -moz-appearance: none;
+                  appearance: none;
+                  z-index: 20;
+                }
+              }
+
+              .credit-card-days {
+
+                select {
+                  color: #5E6977;
+                  background-color: #F0F4F7;
+                  background: url(../../img/arrow-d.png) 80% / 15% no-repeat #eee;
+                  background-size: 8px 4px;
+                  border: 0;
+                  border-radius: 6px;
+                  width: 106px;
+                  height: 42px;
+                  font-family: 'Roboto', sans-serif;
+                  font-size: 14px;
+                  outline: none;
+                  padding: 10px 20px;
+                  -webkit-appearance: none;
+                  -moz-appearance: none;
+                  appearance: none;
+                  z-index: 20;
+                }
+              }
+            }
+          }
+
+          .credit-card-cvv {
+            margin-right: 5%;
+
+            .card-cvv-title {
+              margin-bottom: 5px;
+
+              span {
+                color: #86939E;
+                font-size: 14px;
+              }
+            }
+
+            .card-cvv-input {
+
+              input {
+                width: 85%;
+                height: 42px;
+                border: 1px solid #E1E8EE;
+                border-radius: 6px;
+                outline: none;
+                padding-left: 20px;
+              }
+            }
+          }
+        }
+      }
+    }
+    .line-hor {
+      width: 80%;
+      height: 1px;
+      background-color: #EBF0F5;
+      margin: 35px 0 0 13%;
+    }
+
+    .step-method-activate {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+
+      .step-method-pay {
+        width: 53%;
+        display: flex;
+        flex-wrap: wrap;
+        border-right: 1px solid #E1E8EE;
+
+        .step-method-power {
+          border: 1px solid #86939E;
+          border-radius: 6px;
+          padding: 7px 10px;
+          margin: 10px 0;
+
+          p {
+            color: #86939E;
+            font-size: 12px;
+
+            span {
+              font-weight: 900;
+
+            }
+          }
+        }
+
+        .step-agree-pay {
+          color: #86939E;
+          font-size: 12px;
+          margin: auto;
+        }
+      }
+
+      .step-activate-card {
+        position: relative;
+        margin-right: 10%;
+        margin-top: 16px;
+
+        a {
+          color: #7DC855;
+          text-decoration: none;
+          border: 2px solid #7DC855;
+          border-radius: 6px;
+          font-size: 16px;
+          padding: 5px 35px 5px 20px ;
+        }
+
+        .activate-card-icon {
+          position: absolute;
+          top: 1px;
+          right: 10px;
+
+          i {
+            color: #7DC855;
+          }
+        }
+      }
+    }
+  }
+
+
+}
