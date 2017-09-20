@@ -2717,7 +2717,7 @@ header {
         flex: 1 0 50%;
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: flex-start;
         flex-wrap: wrap;
         border-right: 1px solid #E1E8EE; }
         @media (max-width: 767px) {
@@ -2742,7 +2742,8 @@ header {
               font-weight: 900; }
         .wrapper .last-step .step-method-activate .step-method-pay .step-agree-pay {
           color: #86939E;
-          font-size: 12px; }
+          font-size: 12px;
+          margin-left: 15px; }
           @media (max-width: 767px) {
             .wrapper .last-step .step-method-activate .step-method-pay .step-agree-pay {
               margin: 0 20px; } }
