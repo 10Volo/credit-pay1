@@ -2551,7 +2551,6 @@ header {
       border-bottom: 1px solid #EBF0F5; }
       @media (max-width: 767px) {
         .wrapper .last-step .step-list ul {
-          display: block;
           padding: 10px 0 0 0;
           border: 2px solid #EBF0F5; } }
       .wrapper .last-step .step-list ul li {
@@ -2559,9 +2558,6 @@ header {
         padding-bottom: 20px;
         padding-right: 5px;
         text-decoration: line-through; }
-        @media (max-width: 767px) {
-          .wrapper .last-step .step-list ul li {
-            padding: 5px 20px; } }
         .wrapper .last-step .step-list ul li:last-child {
           margin-right: 15px;
           text-decoration: none; }
