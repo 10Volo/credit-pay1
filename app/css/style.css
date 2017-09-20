@@ -2580,10 +2580,10 @@ header {
             background-color: #358ED7; }
         .wrapper .last-step .step-list ul li i {
           display: inline-block;
-          font-size: 18px; }
+          font-size: 20px; }
           .wrapper .last-step .step-list ul li i.four {
-            width: 15px;
-            height: 15px;
+            width: 18px;
+            height: 18px;
             display: inline-flex;
             align-items: center;
             justify-content: center;
@@ -2592,7 +2592,7 @@ header {
             font-size: 10px;
             font-style: normal; }
     .wrapper .last-step .step-choose {
-      margin-left: -20px;
+      margin-left: 10px;
       margin-right: 30px; }
       @media (max-width: 767px) {
         .wrapper .last-step .step-choose {
@@ -2723,7 +2723,12 @@ header {
         @media (max-width: 767px) {
           .wrapper .last-step .step-method-activate .step-method-pay {
             max-width: 100%;
-            border-right: 0; } }
+            border-right: 0;
+            justify-content: flex-start; } }
+        @media (max-width: 898px) {
+          .wrapper .last-step .step-method-activate .step-method-pay {
+            max-width: 100%;
+            flex: 1 0 100%; } }
         .wrapper .last-step .step-method-activate .step-method-pay .step-method-power {
           border: 1px solid #86939E;
           border-radius: 6px;
@@ -2738,12 +2743,18 @@ header {
         .wrapper .last-step .step-method-activate .step-method-pay .step-agree-pay {
           color: #86939E;
           font-size: 12px; }
+          @media (max-width: 767px) {
+            .wrapper .last-step .step-method-activate .step-method-pay .step-agree-pay {
+              margin: 0 20px; } }
       .wrapper .last-step .step-method-activate .card-btn {
         margin: 0 14% 10px 0; }
         @media (max-width: 767px) {
           .wrapper .last-step .step-method-activate .card-btn {
             width: 100%;
             margin: 0 10% 10px 0; } }
+        @media (max-width: 1205px) {
+          .wrapper .last-step .step-method-activate .card-btn {
+            margin: auto; } }
   .wrapper .step-activate-card {
     position: relative;
     color: #7DC855;
@@ -2756,6 +2767,9 @@ header {
     padding: 12px 40px 12px 24px;
     margin-right: 10%;
     margin-top: 10px; }
+    @media (max-width: 1205px) {
+      .wrapper .step-activate-card {
+        margin-right: 0; } }
     .wrapper .step-activate-card .activate-card-icon {
       position: absolute;
       top: 10px;
@@ -2863,6 +2877,7 @@ header {
       right: 0;
       bottom: 0;
       left: 0;
+      background-color: #ffffff;
       border: 5px solid #7DC855;
       border-radius: 50%;
       transform: scale(0);
