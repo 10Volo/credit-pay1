@@ -45,6 +45,15 @@
    -webkit-appearance: none;
    -moz-appearance: none;
    appearance: none;
+
+   @media (max-width: 767px) {
+     margin-right: 0;
+
+     &:first-child{
+       margin-right: 15px;
+
+     }
+   }
  }
 }
 .m-radio {
@@ -70,6 +79,10 @@
     position: relative;
     padding: 20px 10px;
     cursor: pointer;
+
+    @media (max-width: 767px) {
+      padding: 10px 0;
+    }
 
     &:before {
       content: '';
@@ -137,7 +150,15 @@
 .m-l-30 {
   margin-left: -20px;
 
+  @media (max-width: 767px) {
+    margin: 0;
+  }
+
   &:last-child {
     margin-top: 20px;
+
+    @media (max-width: 767px) {
+      margin-top: 10px;
+    }
   }
 }
