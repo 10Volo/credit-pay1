@@ -481,6 +481,7 @@ header {
     padding: 12px 40px 12px 24px;
     margin-right: 10%;
     margin-top: 10px;
+    cursor: pointer;
 
     &:hover {
       color: #5B923E;
@@ -507,7 +508,7 @@ header {
         color: #7DC855;
 
         &:hover {
-          color: #5B923E;
+          color: red;
         }
       }
     }

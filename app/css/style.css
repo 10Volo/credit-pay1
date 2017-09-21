@@ -2763,7 +2763,8 @@ header {
     font-weight: 600;
     padding: 12px 40px 12px 24px;
     margin-right: 10%;
-    margin-top: 10px; }
+    margin-top: 10px;
+    cursor: pointer; }
     .wrapper .step-activate-card:hover {
       color: #5B923E;
       border: 2px solid #5B923E; }
@@ -2781,7 +2782,7 @@ header {
       .wrapper .step-activate-card .activate-card-icon i {
         color: #7DC855; }
         .wrapper .step-activate-card .activate-card-icon i:hover {
-          color: #5B923E; }
+          color: red; }
 
 .colr-blue {
   color: #0079C4; }
