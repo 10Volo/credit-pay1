@@ -2780,6 +2780,8 @@ header {
       font-size: 20px; }
       .wrapper .step-activate-card .activate-card-icon i {
         color: #7DC855; }
+        .wrapper .step-activate-card .activate-card-icon i:hover {
+          color: #5B923E; }
 
 .colr-blue {
   color: #0079C4; }
